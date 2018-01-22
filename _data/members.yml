@@ -1,0 +1,16 @@
+- name: Rima Aranout
+  #image: /static/img/members/fraser_new.jpg
+  #altimage: /static/img/members/photobomb/FRASER.jpg
+  position: Principal Investigator
+  #email: jfraser (at) fraserlab.com
+  #scholar: j3iaoR8AAAAJ
+  #twitter: "fraser_lab"
+  #orcid: "orcid.org/0000-0002-5080-2859"
+  image: /static/img/members/headshot_pic_rima.jpg
+  email: rima arnaout (at) website.com
+  description: 'Does Research'
+
+- name: Velvet
+  website: "http://google.com"
+  description: "Cat"
+
