@@ -24,7 +24,7 @@
 
 
 - name: Lara Curran, MBBS BSc
-  image: static/img/members/lara_curran.jpg
+  image: /static/img/members/lara_curran.jpg
   # image: static/img/members/lara_curran.jpg 
   position: Visiting Research Scholar
   email: lara.groom (at) ucsf.edu
@@ -50,7 +50,7 @@
   description: "Claudia graduated from Vassar College with a Bachelor's degree in Biochemistry and is currently in the UC Berkeley post-Baccalaureate program. Claudia's interests include bench research and community health care. She is applying to medical school in the fall."
 
 - name: Jon Renslo, BS
-  image: static/img/members/jon_renslo.jpg
+  image: /static/img/members/jon_renslo.jpg
   position: Research Affiliate
   email: jon.renslo (at) ucsf.edu
 #  github: 
