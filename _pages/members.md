@@ -1,5 +1,5 @@
 ---
-title: Arnaout Lab Members
+title: The Arnaout Lab
 layout: archive
 permalink: /members/
 ---
@@ -10,10 +10,12 @@ permalink: /members/
 
 <div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <div class="col-sm-4">
-        <img class="img-responsive" src="{{person.image}}" {% if person.altimage %} onmouseover="this.src='{{person.altimage}}';" onmouseout="this.src='{{person.image}}';" {% endif %} alt="{{person.name}}" width="200" height = "300"><br>
-        <strong>{{person.name}}</strong> <br>
-        {{person.position}} <br>
+        <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
+        <strong>{{person.name}}</strong>, {{person.position}} <br>
         <em>{{person.email}}</em> <br>
+        {% if person.github %}
+          <a href= "http://github.com/{{person.github}}"></a> <br>
+        {% endif %}
         {% if person.website %}
           <a href= "{{person.website}}">{{person.website}}</a> <br>
         {% endif %}
