@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: nura
 title: Publications
 permalink: /publications/
 header:
