@@ -1,6 +1,6 @@
 ---
-layout: single
-title: Research
+layout: nura
+title: "Research"
 permalink: /research/
 ---
 

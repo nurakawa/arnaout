@@ -1,27 +1,26 @@
 ---
-title: The Arnaout Lab
-layout: archive
+title: Members
+layout: nura
 permalink: /members/
 ---
 
 {% for person in site.data.members %}
-<hr>
+
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{person.name}}" class="row" style="padding-top: 80px; margin-top: -80px;">
     <div class="col-sm-4">
         <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
         <strong>{{person.name}}</strong>, {{person.position}} <br>
         <em>{{person.email}}</em> <br>
         {% if person.github %}
-          <a href= "http://github.com/{{person.github}}"></a> <br>
+          <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
         {% endif %}
         {% if person.website %}
           <a href= "{{person.website}}">{{person.website}}</a> <br>
         {% endif %}
-        {% if person.orcid %}
-          <a href="http://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.png"></a>
-          <a href="http://{{person.orcid}}"> {{person.orcid}}</a> <br>
+        {% if person.linkedin %}
+          <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
         {% endif %}
         {% if person.scholar %}
           <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
@@ -34,6 +33,7 @@ permalink: /members/
         <p class="text-justify">{{person.description | markdownify}}</p>
     </div>
 </div>
+<hr style="height:4px; border:none; color:#000; background-color:#000; width:15%; text-align:left; margin: 5 5 0 5;">
 {% endfor %}
 
-
+<br>

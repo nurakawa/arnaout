@@ -1,7 +1,14 @@
 ---
-layout: single
-title: News
+title: "News"
+layout: nura
 permalink: /news/
 ---
 
-Will replace "Recent Posts" with "Recent News" on homepage; otherwise, this is the news page
+<ul>
+  {% for post in site.posts %}
+    <li>
+     <a href="{{ post.url }}">{{ post.title }}</a>
+     {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
