@@ -1,7 +1,8 @@
 ---
 layout: splash
-title: Publications
-permalink: /publications/
+title: Container
+permalink: /container/
+toc: true
 ---
 <h1>Publications</h1>
 <hr>
@@ -36,8 +37,7 @@ permalink: /publications/
   {{ publication.citation | markdownify }}
   <ul style="list-style-type:none">
     
-    {% if publication.pmid %}
-    <!--PMID - optional-->
+    <!--PMID - mandatory-->
     <li> 
     <strong>PMID</strong>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a>  
     
@@ -46,7 +46,7 @@ permalink: /publications/
 	<strong>PMCID</strong>: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a>
 	{% endif %}
 	</li>
-    {%endif%}
+    
     <!--PDF - optional-->
     {% if publication.pdf %}
 	<li><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
@@ -63,7 +63,7 @@ permalink: /publications/
 	{% endif %}-->
     
   </ul>
-  
+  <br>
   </div>
 </div> 
 <hr>

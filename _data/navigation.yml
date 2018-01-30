@@ -17,8 +17,9 @@ main:
   #- title: "join us"
   #  url: /join-us/ 
   - title: "contact"
-    url: /contact/  
-
+    url: /contact/
+  
+# side or toggle navbar for members page
 members:
   - title: The Arnaout Lab
     children:
@@ -28,4 +29,6 @@ members:
         url: /members.html#Members
       - title: "Collaborators"
         url: /members.html#Collaborators
+      - title: "Alumni"
+        url: /members.html#Alumni
   

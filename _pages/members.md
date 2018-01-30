@@ -15,31 +15,33 @@ sidebar:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
     <div class="col-sm-4">
         <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
         <strong>{{person.name}}</strong>, {{person.position}} <br>
-        <em>{{person.email}}</em> <br>
+        <strong>Email</strong>: <em>{{person.email}}</em> 
+        <br>
         {% if person.github %}
-          <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
+          <strong>Github</strong>: <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
         {% endif %}
         {% if person.website %}
-          <a href= "{{person.website}}">{{person.website}}</a> <br>
+          <strong>Web</strong>: <a href= "{{person.website}}">{{person.website}}</a> <br>
         {% endif %}
         {% if person.linkedin %}
-          <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
+          <strong>LinkedIn</strong>: <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
         {% endif %}
         {% if person.scholar %}
           <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
         {% endif %}
         {% if person.twitter %}
-          <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
+          <strong>Twitter</strong>: <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
         {% endif %}
     </div>
     <div class="col-sm-8">
         <p class="text-justify">{{person.description | markdownify}}</p>
     </div>
 </div>
+<hr>
 {% endfor %}
 
 
@@ -50,25 +52,28 @@ sidebar:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
     <div class="col-sm-4">
+        {%if person.image %}
         <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
+        {% endif %}
         <strong>{{person.name}}</strong>, {{person.position}} <br>
-        <em>{{person.email}}</em> <br>
+        <strong>Email</strong>: <em>{{person.email}}</em> 
+        <br>
         {% if person.github %}
-          <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
+          <strong>Github</strong>: <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
         {% endif %}
         {% if person.website %}
-          <a href= "{{person.website}}">{{person.website}}</a> <br>
+          <strong>Web</strong>: <a href= "{{person.website}}">{{person.website}}</a> <br>
         {% endif %}
         {% if person.linkedin %}
-          <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
+          <strong>LinkedIn</strong>: <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
         {% endif %}
         {% if person.scholar %}
           <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
         {% endif %}
         {% if person.twitter %}
-          <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
+          <strong>Twitter</strong>: <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
         {% endif %}
     </div>
     <div class="col-sm-8">
@@ -89,18 +94,28 @@ sidebar:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
     <div class="col-sm-4">
-        <!--<img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>-->
-        <strong>{{person.name}}</strong>, {{person.position}} <br>
-        {% if person.email %}
-          <em>{{person.email}}</em> <br>
+        {% if person.image %}
+        <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
         {% endif %}
+        <strong>{{person.name}}</strong>, {{person.position}} <br>
+        <strong>Email</strong>: <em>{{person.email}}</em> 
+        <br>
         {% if person.github %}
-          <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
+          <strong>Github</strong>: <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
         {% endif %}
         {% if person.website %}
-          <a href= "{{person.website}}">{{person.website}}</a> <br>
+          <strong>Web</strong>: <a href= "{{person.website}}">{{person.website}}</a> <br>
+        {% endif %}
+        {% if person.linkedin %}
+          <strong>LinkedIn</strong>: <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
+        {% endif %}
+        {% if person.scholar %}
+          <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
+        {% endif %}
+        {% if person.twitter %}
+          <strong>Twitter</strong>: <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
         {% endif %}
     </div>
     <div class="col-sm-8">
@@ -111,4 +126,43 @@ sidebar:
 {% endfor %}
 
 
+<h1 id="Alumni">Alumni</h1>
+<br>
 
+{% for person in site.data.alumni %}
+
+<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
+    <div class="col-sm-4">
+        {% if person.image %}
+        <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
+        {% endif %}
+        <strong>{{person.name}}</strong>, {{person.position}} <br>
+        
+        {% if person.email%}
+        <strong>Email</strong>: <em>{{person.email}}</em> 
+        <br>
+        {%endif%}
+        {% if person.github %}
+          <strong>Github</strong>: <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
+        {% endif %}
+        {% if person.website %}
+          <strong>Web</strong>: <a href= "{{person.website}}">{{person.website}}</a> <br>
+        {% endif %}
+        {% if person.linkedin %}
+          <strong>LinkedIn</strong>: <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
+        {% endif %}
+        {% if person.scholar %}
+          <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
+        {% endif %}
+        {% if person.twitter %}
+          <strong>Twitter</strong>: <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
+        {% endif %}
+    </div>
+    <div class="col-sm-8">
+        <p class="text-justify">{{person.description | markdownify}}</p>
+    </div>
+</div>
+<hr>
+{% endfor %}

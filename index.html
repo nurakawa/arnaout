@@ -2,27 +2,47 @@
 layout: splash
 author_profile: false
 title: "Welcome to the Arnaout Lab!"
-header:
-   image: /static/img/color_doppler_cropped.png
 
+
+gallery:
+  - image_path: /static/img/color_doppler_1.jpg
+  - image_path: /static/img/color_doppler_2.png
+  - image_path: /static/img/color_doppler_1.jpg  
+feature_row:
+  - title: "Welcome to the Arnaout Lab!"
+    excerpt: "We are part of the [Division of Cardiology](http://google.com) in the [Department of Medicine](http://google.com) at UCSF."
+  - title: "Contact Us"
+    excerpt: "Rima Arnaout, MD 
+    Assistant Professor
+    Division of Cardiology, Department of Medicine 
+    University of California, San Francisco 
+    email: rima.arnaout (#!) ucsf.edu 
+    555 Mission Bay Blvd South Rm 484 
+    San Francisco, CA 94158 "
+  - title: "Follow us on Twitter!"
+    excerpt: "Twitter"
+  
+---
+
+<style>
+h1, h2, h3, h4, h5, p {
+	font-size:90%;
+}
+</style>
+
+<!--{% include feature_row %}
 feature_row:  
 intro: 
   #- image_path: /static/img/color_doppler5.png
   - title: "Welcome to the Arnaout Lab!"
-  - excerpt: "We are part of the Department of Bioengineering and Therapeutic Sciences, the Macromolecular Structure Group, and the California Institute of Quantitative Biosciences (QB3). 
-    Research in the lab is focused on discovering the fundamental principles of macromolecular structure and dynamics. We are interested in defining conformational states that are essential for function and understanding how conformational transitions couple to biological mechanisms.
-    We are located in Genentech Hall at the Mission Bay Campus of UCSF."
----
-<style>
-	img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-</style>
-
-<!--{% include feature_row %}-->
-
+  - excerpt: "Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel insights and therapies. This can occur by drilling down—understanding the genetic and cellular mechanism of a particular disease—or going broad, using computational means to analyze precision phenotypes at scale.
+  Dr. Arnaout is currently developing computational methods to bring precision phenotyping to echocardiography. Her background as a physician-scientist informs the future scope of this work as a technology that can transform non-invasive imaging into a big-data tool for both research and clinical use. She also uses the zebrafish animal model to study cardiovascular developmental gene function and to model human cardiovascular disease."
 {% include feature_row id="intro" type="center" %}
+-->
+
+{% include gallery  type="center"%}
+{% include feature_row class="full"%}
+
 
 <!--<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent News" }}</h3>-->
 <h1> Recent News: </h1>
