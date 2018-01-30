@@ -1,13 +1,17 @@
 ---
 layout: splash
 author_profile: false
-title: "Welcome to the Arnaout Lab!"
-
+title: "         
+       
+       "
+header:
+  image: /static/img/color_doppler_cropped.png
+  filter: 0.5 
 
 gallery:
-  - image_path: /static/img/color_doppler_1.jpg
-  - image_path: /static/img/color_doppler_2.png
-  - image_path: /static/img/color_doppler_1.jpg  
+  - image_path: /static/img/color_doppler_cropped.jpg
+  #- image_path: /static/img/color_doppler_2.png
+  #- image_path: /static/img/color_doppler_1.jpg  
 feature_row:
   - title: "Welcome to the Arnaout Lab!"
     excerpt: "We are part of the [Division of Cardiology](http://google.com) in the [Department of Medicine](http://google.com) at UCSF."
@@ -28,6 +32,13 @@ feature_row:
 h1, h2, h3, h4, h5, p {
 	font-size:90%;
 }
+img {
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 30%;
+    width: auto;
+}
+
 </style>
 
 <!--{% include feature_row %}
@@ -40,7 +51,8 @@ intro:
 {% include feature_row id="intro" type="center" %}
 -->
 
-{% include gallery  type="center"%}
+<!--{% include gallery  type="center"%}-->
+
 {% include feature_row class="full"%}
 
 
