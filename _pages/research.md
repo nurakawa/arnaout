@@ -1,9 +1,19 @@
 ---
-layout: nura
+layout: splash
 title: "Research"
 permalink: /research/
+header:
+  image: static/img/color_doppler_cropped.png	
 ---
 
+<!--<style>
+img{
+-webkit-filter: opacity(70%); /* Safari */
+    filter: opacity(70%);
+}
+</style>-->
+
+# Research
 
 Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel insights and therapies. This can occur by drilling down—understanding the genetic and cellular mechanism of a particular disease—or going broad, using computational means to analyze precision phenotypes at scale.
 

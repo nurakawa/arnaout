@@ -1,14 +1,21 @@
 ---
-title: Members
-layout: nura
-permalink: /members/
+title: " "
+layout: single
+permalink: /members.html
+sidebar:
+  nav: "members"
+
+
 ---
 
-{% for person in site.data.members %}
+<h1 id="Principal-Investigator">Principal Investigator</h1>
+
+<br>
+{% for person in site.data.pi %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 80px; margin-top: -80px;">
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <div class="col-sm-4">
         <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
         <strong>{{person.name}}</strong>, {{person.position}} <br>
@@ -33,7 +40,75 @@ permalink: /members/
         <p class="text-justify">{{person.description | markdownify}}</p>
     </div>
 </div>
-<hr style="height:4px; border:none; color:#000; background-color:#000; width:15%; text-align:left; margin: 5 5 0 5;">
+{% endfor %}
+
+
+<h1 id="Members">Members</h1>
+
+<br>
+{% for person in site.data.members %}
+
+<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-4">
+        <img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
+        <strong>{{person.name}}</strong>, {{person.position}} <br>
+        <em>{{person.email}}</em> <br>
+        {% if person.github %}
+          <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
+        {% endif %}
+        {% if person.website %}
+          <a href= "{{person.website}}">{{person.website}}</a> <br>
+        {% endif %}
+        {% if person.linkedin %}
+          <a href="http://linkedin.com/in/{person.linkedin}}">{{person.linkedin}}</a> <br>
+        {% endif %}
+        {% if person.scholar %}
+          <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
+        {% endif %}
+        {% if person.twitter %}
+          <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
+        {% endif %}
+    </div>
+    <div class="col-sm-8">
+        <p class="text-justify">{{person.description | markdownify}}</p>
+    </div>
+</div>
+<hr>
+<!--<hr style="height:4px; border:none; color:#000; background-color:#000; width:15%; text-align:left; margin: 5 5 0 5;">-->
 {% endfor %}
 
 <br>
+
+<h1 id="Collaborators">Collaborators</h1>
+<br>
+
+
+{% for person in site.data.collab %}
+
+<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-4">
+        <!--<img class="img-responsive" src="{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>-->
+        <strong>{{person.name}}</strong>, {{person.position}} <br>
+        {% if person.email %}
+          <em>{{person.email}}</em> <br>
+        {% endif %}
+        {% if person.github %}
+          <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
+        {% endif %}
+        {% if person.website %}
+          <a href= "{{person.website}}">{{person.website}}</a> <br>
+        {% endif %}
+    </div>
+    <div class="col-sm-8">
+        <p class="text-justify">{{person.description | markdownify}}</p>
+    </div>
+</div>
+<hr>
+{% endfor %}
+
+
+

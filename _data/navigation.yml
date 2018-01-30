@@ -4,11 +4,28 @@ main:
     url: /research/
   - title: "publications"
     url: /publications/
+  #- title: members
+  #  subfolderitems:
+  #    - page: "current members"
+  #      url: ../members/
+  #    - page: "collaborators"
+  #      url: ../publications/
   - title: "members"
-    url: /members/
+    url: /members.html
   - title: "news"
     url: /news/
   #- title: "join us"
   #  url: /join-us/ 
   - title: "contact"
     url: /contact/  
+
+members:
+  - title: The Arnaout Lab
+    children:
+      - title: "Principal Investigator"
+        url: /members.html/#Principal-Investigator
+      - title: "Members"
+        url: /members.html#Members
+      - title: "Collaborators"
+        url: /members.html#Collaborators
+  

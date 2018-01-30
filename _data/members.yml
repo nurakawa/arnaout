@@ -1,11 +1,3 @@
-- name: Rima Arnaout, MD
-  image: ../static/img/members/rima_arnaout.jpg
-  position: Principal Investigator
-  email: rima.arnaout (at) ucsf.edu
-  twitter: arnaoutlab
-  website: http://profiles.ucsf.edu/rima.arnaout
-  description: 'Rima Arnaout is an Assistant Professor in Medicine (Cardiology) and a member of the UCSF Institute for Computational Health Sciences (ICHS). She is a physician-scientist with a background in genetics, clinical research and programming, and a practicing cardiologist board-certified in multi-modality cardiovascular imaging.'
-
 - name: Erin Chinn, MS
   image: ../static/img/members/erin_chinn.jpg
   position: Data Science Researcher
@@ -20,7 +12,7 @@
   email: lara.groom (at) ucsf.edu
   description: "Dr. Curran is trained in internal medicine and has an interest in cardiology. She is a visiting researcher from the UK." 
    
-- name: Claudia Portillo, BS (placeholder image)
+- name: Claudia Portillo, BS
   image: ../static/img/members/claudia_portillo.jpg
   position: Research Affiliate
   email: claudia.portillo (at) ucsf.edu

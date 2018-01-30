@@ -1,10 +1,35 @@
 ---
-layout: home
+layout: splash
 author_profile: false
+title: "Welcome to the Arnaout Lab!"
 header:
-  overlay_image: static/img/website-image.jpg
-  cta_label: "Join Us!"
-  cta_url: "/join-us/"
-title: ""
+   image: /static/img/color_doppler_cropped.png
+
+feature_row:  
+intro: 
+  #- image_path: /static/img/color_doppler5.png
+  - title: "Welcome to the Arnaout Lab!"
+  - excerpt: "We are part of the Department of Bioengineering and Therapeutic Sciences, the Macromolecular Structure Group, and the California Institute of Quantitative Biosciences (QB3). 
+    Research in the lab is focused on discovering the fundamental principles of macromolecular structure and dynamics. We are interested in defining conformational states that are essential for function and understanding how conformational transitions couple to biological mechanisms.
+    We are located in Genentech Hall at the Mission Bay Campus of UCSF."
 ---
-  
+<style>
+	img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+</style>
+
+<!--{% include feature_row %}-->
+
+{% include feature_row id="intro" type="center" %}
+
+<!--<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent News" }}</h3>-->
+<h1> Recent News: </h1>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+
