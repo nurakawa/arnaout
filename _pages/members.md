@@ -18,7 +18,9 @@ sidebar:
 <div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
     <div class="col-sm-4">
         <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
-        <strong>{{person.name}}</strong>, {{person.position}} <br>
+        <strong>{{person.name}}</strong>
+        {% if person.position %} , {{person.position}} {% endif %}
+        <br>
         <strong>Email</strong>: <em>{{person.email}}</em> 
         <br>
         {% if person.github %}
@@ -90,7 +92,7 @@ sidebar:
 <br>
 
 
-{% for person in site.data.collab %}
+{% for person in site.data.collaborators %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
@@ -99,9 +101,12 @@ sidebar:
         {% if person.image %}
         <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
         {% endif %}
-        <strong>{{person.name}}</strong>, {{person.position}} <br>
-        <strong>Email</strong>: <em>{{person.email}}</em> 
+        <strong>{{person.name}}</strong>
+        {% if person.position %} , {{person.position}} {% endif %}
         <br>
+        {% if person.email %}
+        <strong>Email</strong>: <em>{{person.email}}</em> 
+        {% endif %}<br>
         {% if person.github %}
           <strong>Github</strong>: <a href= "https://github.com/{{person.github}}">{{person.github}} </a> <br>
         {% endif %}
@@ -138,8 +143,9 @@ sidebar:
         {% if person.image %}
         <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
         {% endif %}
-        <strong>{{person.name}}</strong>, {{person.position}} <br>
-        
+        <strong>{{person.name}}</strong>
+        {% if person.position %} ,{{person.position}} {% endif %}
+        <br>
         {% if person.email%}
         <strong>Email</strong>: <em>{{person.email}}</em> 
         <br>

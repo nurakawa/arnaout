@@ -1,0 +1,27 @@
+- name: Ramy Arnaout, MD  
+  website: 'http://arnaoutlab.org'
+  description: "Ramy is Assistant Professor of Pathology at BIDMC and Harvard Medical School. An alumnus of MIT, he received his doctorate in mathematical (systems) biology from Oxford University on a Marshall Scholarship and his MD from Harvard Medical School as a Soros Fellow. He completed residency in pathology at Brigham and Women's Hospital and postdoctoral work at the Broad Institute of MIT and Harvard."
+
+- name: 'Anita Moon-Grady, MD'
+  position: Professor of Pediatrics
+  email: anita.grady (at) ucsf.edu
+  website: 'http://profiles.ucsf.edu/anita.moon-grady'
+  description: "Dr. Anita Moon-Grady, director of the Fetal Cardiovascular Program at UCSF Benioff Children's Hospital, specializes in pediatric cardiology and neonatal and perinatal medicine. She has expertise in pediatric and fetal echocardiography, with research interests in diastolic dysfunction and fetal cardiovascular assessment." 
+   
+- name: Nisha I. Parikh, MD MPH
+  position: Assistant Professor
+  email: nisha.parikh (at) ucsf.edu
+  website: 'http://profiles.ucsf.edu/nisha.parikh'
+  description: "Dr. Parikh is a cardiovascular epidemiologist and population scientist. She has an MPH in epidemiology and biostatistics from the U.C. Berkeley School of Public Health and did her post-doctoral research fellowship at the Framingham Heart Study. Dr Parikh is devleoping risk stratification tools using pregnancy and childbirth as a 'cardiometabolic stress test' to predict later cardiovascular disease risk factors and overt cardiovascular disease in women."
+
+- name: Jiandong Liu, PhD
+  position: Assistant Professor
+  website: 'http://liulab.web.unc.edu'
+  email: 'jiandong_liu (at) med.unc.edu'
+  description: "Dr Liu's Lab combines genetics, molecular and cell biology to study cardiac development and function, focusing on the molecular mechanisms that link mechanical forces and genetic factors to cardiac morphogenesis. Their studies using zebrafish as a model system serve as the basic foundation to address the key questions in cardiac development and function, and could provide novel therapeutics for cardiac diseases."
+
+- name: Lorraine James
+  position: Research Affiliate
+  website:
+  email:
+  description: "Lorraine is a medical student at UT Southwestern currently on a research rotation at UCSF."
