@@ -28,7 +28,7 @@ permalink: /publications/
   <div class="col-4">
   <!--<div class="my-img"><img src='http://via.placeholder.com/250x250' align="left" hspace="20"></div>-->
   
-  <img class = "img-responsive" src = "{{publication.image}}" style="max-width: 250px" hspace="20" align="left">
+  <img class = "img-responsive" src = "{{publication.image}}" style="max-width: 350px" hspace="20" align="left">
   
   </div>
   <div class="clearfix hidden-sm-up"></div>
