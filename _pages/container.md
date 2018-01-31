@@ -1,18 +1,23 @@
 ---
 layout: splash
-title: "News from the Arnaout Lab"
+title: "Contact"
 permalink: /container/
 ---
 
 
-<h1> News from the Arnaout Lab </h1>
+<h1> Contact the Arnaout Lab </h1>
 <hr>
 
-<div class="w3-sidebar w3-bar-block" style="width:35%; float:left;">
-<a class="twitter-timeline" data-lang="en" data-width="450" href="https://twitter.com/arnaoutlab?ref_src=twsrc%5Etfw">Tweets by arnaoutlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<div class="w3-sidebar w3-bar-block" style="width:25%; float:right; background-color:lightgrey;">
+<strong>Rima Arnaout</strong>, Assistant Professor <br>
+  Division of Cardiology, Department of Medicine <br>
+  University of California, San Francisco <br>
+  email: rima.arnaout (#!) ucsf.edu <br> 
+  555 Mission Bay Blvd South Rm 484 
+  San Francisco, CA 94158
 </div>
 
-<div style="margin-left:38%;">
+<div style="margin-right:26%;">
 <ul style="list-style: none;">
   {% for post in site.posts %}
     <li>
