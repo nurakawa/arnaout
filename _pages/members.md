@@ -17,7 +17,7 @@ sidebar:
 
 <div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
     <div class="col-sm-4">
-        <img class="img-responsive" src="../static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
+        <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:200px;height:200px"><br>
         <strong>{{person.name}}</strong>, {{person.position}} <br>
         <strong>Email</strong>: <em>{{person.email}}</em> 
         <br>
