@@ -18,6 +18,8 @@ main:
   #  url: /join-us/ 
   - title: "contact"
     url: /contact/
+  #- title: "container"
+  #  url: /container/
   
 # side or toggle navbar for members page
 members:
