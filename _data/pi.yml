@@ -1,9 +1,5 @@
 - name: Rima Arnaout, MD
-<<<<<<< HEAD
   image: rima_arnaout.jpg
-=======
-  image: /static/img/members/rima_arnaout.jpg
->>>>>>> 6ee7a599c0c49a65a51aac07224c7c207dfb5438
   position: Principal Investigator
   email: rima.arnaout (at) ucsf.edu
   twitter: arnaoutlab
