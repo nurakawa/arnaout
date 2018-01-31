@@ -1,5 +1,5 @@
 - name: Erin Chinn, MS
-  image: ../static/img/members/erin_chinn.jpg
+  image: erin_chinn.jpg
   position: Data Science Researcher
   email: erin.chinn (at) ucsf.edu
   github: "emchinn"
@@ -7,19 +7,19 @@
   description: "Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master's Degree in Analytics from the University of San Francisco."
 
 - name: Lara Curran, MBBS BSc
-  image: ../static/img/members/lara_curran.jpg
+  image: lara_curran.jpg
   position: Visiting Research Scholar
   email: lara.groom (at) ucsf.edu
   description: "Dr. Curran is trained in internal medicine and has an interest in cardiology. She is a visiting researcher from the UK." 
    
 - name: Claudia Portillo, BS
-  image: ../static/img/members/claudia_portillo.jpg
+  image: claudia_portillo.jpg
   position: Research Affiliate
   email: claudia.portillo (at) ucsf.edu
   description: "Claudia graduated from Vassar College with a Bachelor's degree in Biochemistry and is currently in the UC Berkeley post-Baccalaureate program. Claudia's interests include bench research and community health care. She is applying to medical school in the fall."
 
 - name: Jon Renslo, BS
-  image: ../static/img/members/jon_renslo.jpg
+  image: jon_renslo.jpg
   position: Research Affiliate
   email: jon.renslo (at) ucsf.edu
   description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
