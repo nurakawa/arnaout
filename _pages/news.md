@@ -4,8 +4,10 @@ title: "News from the Arnaout Lab"
 permalink: /news/
 ---
 <style>
-@media screen and (max-width: 960px) {
-.twitter_sidebar { display: none; }
+@media (max-width: 768px) {
+    #twitter_sidebar {
+        display: none;
+    }
 }
 </style>
 
