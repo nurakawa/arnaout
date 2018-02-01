@@ -239,14 +239,14 @@ compress_html:
   ignore:
     envs: development
 
-baseurl: /arnaout
+baseurl: arnaout
 
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: "/posts/"
+      path: ""
       type: posts
     values:
       layout: single
