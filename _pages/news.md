@@ -8,9 +8,8 @@ permalink: /news/
     #twitter_sidebar {
         display: none;
     }
-    #news_content{
+    .w3-main{
         margin-left: 0%;
-        width: "device-width";
     }
 }
 </style>
@@ -23,7 +22,7 @@ permalink: /news/
 </div>
 
 
-<div id="news_content" style="margin-left:40%;">
+<div class="w3-main" style="margin-left:40%;">
 <ul style="list-style: none;">
   {% for p in site.posts %}
     <li>
