@@ -30,7 +30,7 @@ permalink: /news/
 
 
 <div id="news_content">
-<ul style="list-style: none;">
+<ul style="list-style: none; padding-left:0;">
   {% for p in site.posts %}
     <li>
      <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
