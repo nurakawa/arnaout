@@ -4,6 +4,10 @@ title: "News from the Arnaout Lab"
 permalink: /news/
 ---
 <style>
+#news_content{
+    margin-left:40%;
+    }
+    
 @media (max-width: 768px) {
     #twitter_sidebar {
         display: none;
@@ -22,7 +26,7 @@ permalink: /news/
 </div>
 
 
-<div class="w3-main" style="margin-left:40%;">
+<div id="news_content">
 <ul style="list-style: none;">
   {% for p in site.posts %}
     <li>
