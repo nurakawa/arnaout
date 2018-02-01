@@ -10,7 +10,7 @@ permalink: /news/
 <div class="w3-sidebar w3-bar-block" style="width:35%; float:left;">
 <div class="w3-row"> 
   <div class="w3-hide-small">
-<a class="twitter-timeline" data-lang="en" data-width="400" href="https://twitter.com/arnaoutlab?ref_src=twsrc%5Etfw">Tweets by arnaoutlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<a class="twitter-timeline" data-lang="en" data-dnt="true" href="https://twitter.com/arnaoutlab?ref_src=twsrc%5Etfw">Tweets by arnaoutlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
   </div>
 </div>
 </div>
