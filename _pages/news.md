@@ -9,7 +9,7 @@ permalink: /news/
         display: none;
     }
     #news_content{
-        margin-left:2%;
+        margin: 0;
         padding: 0;
     }
 }
