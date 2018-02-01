@@ -7,9 +7,14 @@ permalink: /news/
 <h1> News from the Arnaout Lab </h1>
 <hr>
 
-<div class="w3-sidebar w3-bar-block w3-hide-small" style="width:35%; float:left;">
+<div class="w3-sidebar w3-bar-block" style="width:35%; float:left;">
+<div class="w3-row"> 
+  <div class="w3-hide-small">
 <a class="twitter-timeline" data-lang="en" data-width="400" href="https://twitter.com/arnaoutlab?ref_src=twsrc%5Etfw">Tweets by arnaoutlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  </div>
 </div>
+</div>
+
 
 <div style="margin-left:40%;">
 <ul style="list-style: none;">
