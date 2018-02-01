@@ -2,7 +2,7 @@
 title: "Lorem Ipsum"
 author: Rima Arnaout
 date: 2018-01-31
-permalink: /lorem-ipsum/
+permalink: lorem-ipsum/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim scelerisque augue ac accumsan. Donec tortor diam, scelerisque ac feugiat ut, tristique ut mauris. Duis metus lacus, dignissim in dapibus sed, faucibus id velit. Nulla vestibulum blandit vulputate. Donec condimentum bibendum arcu, vel consectetur nisi posuere et. Quisque nibh ligula, fermentum quis orci nec, pretium blandit leo. Donec finibus, ex sit amet placerat vulputate, arcu magna faucibus ante, ac gravida augue ex id tellus. Curabitur varius lacinia condimentum. Cras quam orci, commodo a dui eget, eleifend pharetra quam. Vestibulum dui diam, varius convallis eleifend eget, ullamcorper sed enim. Duis ac justo orci. Praesent vel leo tempus, vestibulum ipsum quis, sollicitudin justo. Aenean magna ante, laoreet non tristique sit amet, laoreet sit amet leo. Aenean finibus mauris eu volutpat eleifend. Quisque ultrices placerat nulla quis luctus. Aenean gravida velit eu orci consectetur, sit amet ultricies eros sodales.

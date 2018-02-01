@@ -8,7 +8,7 @@ permalink: /contact/
 <h1> Contact the Arnaout Lab </h1>
 <hr>
 
-<div class="w3-sidebar w3-bar-block" style="width:50%; height:320px; float:right; border:dotted 1px black; padding:10px;">
+<div class="w3-sidebar w3-bar-block" style="width:50%; float:right; border:dotted 1px black; padding:10px;">
   <h1> Graduate Programs </h1>
   The Arnaout Lab participates in the following UCSF graduate programs:
   <a href="http://biophysics.ucsf.edu/"> BioPhysics</a>
