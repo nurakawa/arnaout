@@ -2,18 +2,10 @@
 main:
   - title: "publications"
     url: /publications/
-  #- title: members
-  #  subfolderitems:
-  #    - page: "current members"
-  #      url: ../members/
-  #    - page: "collaborators"
-  #      url: ../publications/
   - title: "members"
     url: /members.html
   - title: "news"
     url: /news/
-  #- title: "join us"
-  #  url: /join-us/ 
   - title: "contact"
     url: /contact/
   
