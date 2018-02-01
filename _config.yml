@@ -244,10 +244,10 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/news/"
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: false
       read_time: false
       comments: # true
