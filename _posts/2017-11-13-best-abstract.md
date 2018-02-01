@@ -4,4 +4,4 @@ author: Rima Arnaout
 date: 2017-11-13
 ---
 
-http://circ.ahajournals.org/content/136/Suppl_1/A18074
+Read [here](http://circ.ahajournals.org/content/136/Suppl_1/A18074)
