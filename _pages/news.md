@@ -14,10 +14,10 @@ permalink: /news/
 
 <div style="margin-left:38%;">
 <ul style="list-style: none;">
-  {% for post in paginator.posts %}
+  {% for p in site.posts %}
     <li>
-     <a href="{{ post.permalink }}">{{ post.title }}</a>
-     {{ post.excerpt }}
+     <a href="{{ p.permalink }}">{{ p.title }}</a>
+     {{ p.excerpt }}
     </li>
   {% endfor %}
 </ul>

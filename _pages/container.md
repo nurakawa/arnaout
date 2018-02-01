@@ -8,7 +8,7 @@ permalink: /container/
 <h1> Contact the Arnaout Lab </h1>
 <hr>
 
-<div class="w3-sidebar w3-bar-block" style="width:50%; float:right; border:dotted 1px black; padding:10px;">
+<div class="w3-sidebar w3-bar-block" style="width:50%; height:320px; float:right; border:dotted 1px black; padding:10px;">
   <h1> Graduate Programs </h1>
   The Arnaout Lab participates in the following UCSF graduate programs:
   <a href="http://biophysics.ucsf.edu/"> BioPhysics</a>
@@ -19,7 +19,8 @@ permalink: /container/
 </div>
 
 <div style="margin-right:51%; margin-left:1%">
-  <h1> Contact Information </h1> <img src="http://via.placeholder.com/270x250" style="float:right"> <br>
+  <img src="http://via.placeholder.com/250x320" style="float:right"> 
+  <h1> Contact Information </h1> 
   <strong>Rima Arnaout</strong>, Assistant Professor 
   
   
