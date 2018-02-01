@@ -6,7 +6,7 @@ permalink: /news/
 <style>
 @media (min-width: 769px) {
     #news_content{
-    margin-left:40%;
+    margin-left:38%;
     }
 }
     
@@ -16,6 +16,7 @@ permalink: /news/
     }
     #news_content{
         margin-left: 0%;
+        float: left;
     }
 }
 </style>
