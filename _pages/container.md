@@ -1,21 +1,17 @@
 ---
 layout: splash
-title: "Contact"
+title: "home"
 permalink: /container/
 ---
 
-
-<h1> Contact the Arnaout Lab </h1>
+<h1> Welcome to the Arnaout Lab! </h1>
 <hr>
 
+<div class="jumbotron">
+</div>
+
 <div class="w3-sidebar w3-bar-block" style="width:50%; height:320px; float:right; border:dotted 1px black; padding:10px;">
-  <h1> Graduate Programs </h1>
-  The Arnaout Lab participates in the following UCSF graduate programs:
-  <a href="http://biophysics.ucsf.edu/"> BioPhysics</a>
-  <br>
-  <br>
-  <h1> Postdoctoral Fellows </h1>
-  Inquiries about Postdoctoral positions should be emailed directly to Dr. Arnaout  and clearly, but briefly, articulate why you are potentially interested in joining the lab. Candidates will be encouraged to explore applying for extramural fellowships to support their research.
+  
 </div>
 
 <div style="margin-right:51%; margin-left:1%">

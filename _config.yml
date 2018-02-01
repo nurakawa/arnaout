@@ -239,15 +239,17 @@ compress_html:
   ignore:
     envs: development
 
+baseurl: /arnaout
+
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: "/news/"
+      path: "/posts/"
       type: posts
     values:
-      layout: splash
+      layout: single
       author_profile: false
       read_time: false
       comments: # true
