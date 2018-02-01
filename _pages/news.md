@@ -16,7 +16,7 @@ permalink: /news/
 <ul style="list-style: none;">
   {% for p in site.posts %}
     <li>
-     <a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a>
+     <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
      {{ p.excerpt }}
     </li>
   {% endfor %}
