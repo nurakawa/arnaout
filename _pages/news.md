@@ -14,7 +14,7 @@ permalink: /news/
 
 <div style="margin-left:38%;">
 <ul style="list-style: none;">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <li>
      <a href="{{ post.permalink }}">{{ post.title }}</a>
      {{ post.excerpt }}
