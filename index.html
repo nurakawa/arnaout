@@ -1,11 +1,9 @@
 ---
 layout: splash
 author_profile: false
-title: "         
-       
-       "
+title: ""
 header:
-  image: /static/img/color_doppler_cropped.png
+  image: /static/img/color_doppler_cropped.jpg
   filter: 0.5 
 
 gallery:
@@ -28,21 +26,6 @@ feature_row:
   
 ---
 
-<style>
-body	{ background: /static/img/color_doppler_1.jpg top right no-repeat; background-attachment:fixed; }	
-	
-	
-h1, h2, h3, h4, h5, p {
-	font-size:90%;
-}
-img {
-    opacity: 0.7;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    height: 30%;
-    width: auto;
-}
-
-</style>
 
 <!--{% include feature_row %}
 feature_row:  
@@ -56,15 +39,30 @@ intro:
 
 <!--{% include gallery  type="center"%}-->
 
-{% include feature_row class="full"%}
+<!--{% include feature_row class="full"%}-->
 
 
-<!--<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent News" }}</h3>-->
-<h1> Recent News: </h1>
+<div class="w3-sidebar w3-bar-block" style="width:35%; float:left;">
+<h1> Recent News </h1>
+
+<ul style="font-size:80%; list-style: none; padding-left:0;">
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}
+   </ul>
+</div>
+
+<div class="jumbotron" style="margin-left:38%;">
+  <h1 class="display-3">Welcome to the Arnaout Lab!</h1>
+  <p class="lead">We are part of the Division of Cardiology in the Department of Medicine at UCSF. <a href="/contact/" role="button">Join Us</a> </p>
+  <hr class="my-4">
+  <p><i><strong>Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel insights and therapies.</strong> This can occur by drilling down—understanding the genetic and cellular mechanism of a particular disease—or going broad, using computational means to analyze precision phenotypes at scale.
+
+Dr. Arnaout is currently developing computational methods to bring precision phenotyping to echocardiography. Her background as a physician-scientist informs the future scope of this work as a technology that can transform non-invasive imaging into a big-data tool for both research and clinical use. She also uses the zebrafish animal model to study cardiovascular developmental gene function and to model human cardiovascular disease.</i></p>
+  
+    
+</div>
 
