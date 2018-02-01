@@ -4,15 +4,17 @@ title: "News from the Arnaout Lab"
 permalink: /news/
 ---
 <style>
-#news_content{
+@media (min-width: 769px) {
+    #news_content{
     margin-left:40%;
     }
+}
     
 @media (max-width: 768px) {
     #twitter_sidebar {
         display: none;
     }
-    .w3-main{
+    #news_content{
         margin-left: 0%;
     }
 }
