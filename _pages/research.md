@@ -17,4 +17,4 @@ Dr. Arnaout is currently developing computational methods to bring precision phe
 [Pediatric Cardiac Genomics Consortium](https://benchtobassinet.com/About/AboutPCGC.aspx)<br>
 [Sarnoff Foundation](http://www.sarnofffoundation.org/)<br>
 [National Institute for Health](https://www.nhlbi.nih.gov/)<br>
-[The Aranaout Lab (Ramy Arnaout)](www.arnaoutlab.org)<br>
+[The Arnaout Lab (Ramy Arnaout)](www.arnaoutlab.org)<br>
