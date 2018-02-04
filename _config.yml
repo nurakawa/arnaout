@@ -239,7 +239,7 @@ compress_html:
   ignore:
     envs: development
 
-#baseurl: /arnaout
+baseurl: /arnaout
 
 
 # Defaults
