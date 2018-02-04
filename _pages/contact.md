@@ -6,7 +6,7 @@ permalink: /contact/
 <style>
 img{
   width=250px;
-  length=320px;
+  height=320px;
 }
 </style>
 
