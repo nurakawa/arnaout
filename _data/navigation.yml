@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "research"
+    url: /research/
   - title: "publications"
     url: /publications/
   - title: "members"
@@ -8,6 +10,8 @@ main:
     url: /news/
   - title: "contact"
     url: /contact/
+  - title: "join us"
+    url: /join-us/
   
 # side or toggle navbar for members page
 members:

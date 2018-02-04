@@ -4,7 +4,6 @@
 
 .masthead {
   position: relative;
-  /*border-bottom: 0.5px solid $border-color;*/
   /*-webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -17,7 +16,7 @@
     margin-right: auto;
     padding: 1em;
     padding-left: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: flex;
@@ -49,7 +48,7 @@
   align-items: center;
   font-weight: bold;
   z-index: 20;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 .masthead__menu {
