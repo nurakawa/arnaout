@@ -10,8 +10,6 @@ main:
     url: /news/
   - title: "contact"
     url: /contact/
-  - title: "join us"
-    url: /join-us/
   
 # side or toggle navbar for members page
 members:
