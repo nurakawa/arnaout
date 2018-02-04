@@ -3,7 +3,8 @@ title: research
 layout: splash
 permalink: /research/
 ---
-
+<h1> Research </h1>
+<hr>
 
 <p><i><strong>Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel insights and therapies.</strong> This can occur by drilling down—understanding the genetic and cellular mechanism of a particular disease—or going broad, using computational means to analyze precision phenotypes at scale.
 
