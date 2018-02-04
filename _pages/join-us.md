@@ -1,7 +1,7 @@
 ---
 title: join us
 layout: splash
-permalink: /join-us/
+permalink: /join-us.html
 ---
 <h1> Work with Us </h1>
 <hr>
