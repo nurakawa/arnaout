@@ -24,7 +24,7 @@ img{
 </div>
 
 <div style="margin-right:51%; margin-left:1%">
-  <img src="/static/img/color_doppler5.png">
+  <img src="../static/img/color_doppler5.png">
   <h1> Contact Information </h1> 
   <strong>Rima Arnaout</strong>, Assistant Professor 
   
