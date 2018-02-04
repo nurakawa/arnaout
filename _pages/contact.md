@@ -3,12 +3,6 @@ layout: splash
 title: "Contact"
 permalink: /contact/
 ---
-<style>
-img{
-  width=250px;
-  height=320px;
-}
-</style>
 
 <h1> Contact the Arnaout Lab </h1>
 <hr>
@@ -24,7 +18,7 @@ img{
 </div>
 
 <div style="margin-right:51%; margin-left:1%">
-  <img src="../static/img/color_doppler5.png">
+  <img src="../static/img/color_doppler_cropped.jpg" height="320px" width="250px">
   <h1> Contact Information </h1> 
   <strong>Rima Arnaout</strong>, Assistant Professor 
   
