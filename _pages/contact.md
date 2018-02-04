@@ -17,7 +17,7 @@ permalink: /contact/
   Inquiries about Postdoctoral positions should be emailed directly to Dr. Arnaout  and clearly, but briefly, articulate why you are potentially interested in joining the lab. Candidates will be encouraged to explore applying for extramural fellowships to support their research.
 </div>
 
-<div style="margin-right:71%; margin-left:1%; font-size:90%;">
+<div style="margin-right:31%; margin-left:1%; font-size:90%;">
   <img src="../static/img/color_doppler_cropped.jpg">
   <strong>Rima Arnaout</strong>, Assistant Professor 
   
