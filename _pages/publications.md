@@ -3,6 +3,7 @@ layout: splash
 title: Publications
 permalink: /publications/
 ---
+
 <h1>Publications</h1>
 <hr>
 <br>
@@ -26,24 +27,26 @@ permalink: /publications/
 <div class="row justify-content-between" style="padding-top: 60px; margin-top: -60px;">
   <div class="clearfix hidden-sm-up"></div>
   <div class="col-4">
-  <!--<div class="my-img"><img src='http://via.placeholder.com/250x250' align="left" hspace="20"></div>-->
   
-  <img class = "img-responsive" src = "{{publication.image}}" style="max-width: 350px" hspace="20" align="left">
+  <img class = "img-responsive" src = "{{publication.image}}" style="max-width: 380px" hspace="20" align="left">
   
   </div>
   <div class="clearfix hidden-sm-up"></div>
+  <div class="col-8-auto" style="font-size:125%">
+  {{ publication.title | markdownify }}
+  </div>
   <div class="col-8-auto" style="font-size:75%">
-  {{ publication.citation | markdownify }}
-  <ul style="list-style-type:none">
+  {{ publication.authors | markdownify }}
+  <ul style="list-style-type:none; margin:0; padding: 0.2em;">
     
     {% if publication.pmid %}
     <!--PMID - optional-->
     <li> 
-    <strong>PMID</strong>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a>  
+    PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a>  
     
     <!--PMCID - optional-->
     {% if publication.pmcid %}
-	<strong>PMCID</strong>: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a>
+	PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a>
 	{% endif %}
 	</li>
     {%endif%}
