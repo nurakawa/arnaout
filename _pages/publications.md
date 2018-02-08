@@ -10,6 +10,10 @@ permalink: /publications/
 <!--SOLUTION TO OVERFLOW PROBLEM: https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height-->
 
 <style>
+li{
+    padding:0;
+    margin-top: -15px;
+}
 .row{
     overflow: hidden; 
 }
@@ -32,13 +36,13 @@ permalink: /publications/
   <img class = "img-responsive" src = "{{publication.image}}" style="width: 380px" hspace="20" align="left">
   </div>
   <div class="clearfix hidden-sm-up"></div>
-  <div class="col-8-auto" style="font-size:125%">
+  <div class="col-8-auto" style="font-size:105%">
   {{ publication.title | markdownify }}
-  </div>
-  <div class="col-8-auto" style="font-size:75%">
-  {{ publication.authors | markdownify }}
-  <ul style="list-style-type:none; margin:0; padding: 0.2em;">
-    
+  <!--</div>
+  <div class="col-8-auto" style="font-size:75%;">-->
+  
+  <ul style="font-size:75%; list-style-type:none;">
+    <li>{{ publication.authors | markdownify }}</li>
     {% if publication.pmid %}
     <!--PMID - optional-->
     <li> 
