@@ -28,8 +28,8 @@ permalink: /publications/
   <div class="clearfix hidden-sm-up"></div>
   <div class="col-4">
   
-  <img class = "img-responsive" src = "{{publication.image}}" style="max-width: 380px" hspace="20" align="left">
-  
+  <!--<img class = "img-responsive" src = "{{publication.image}}" style="max-width: 380px" hspace="20" align="left">-->
+  <img class = "img-responsive" src = "{{publication.image}}" style="width: 380px" hspace="20" align="left">
   </div>
   <div class="clearfix hidden-sm-up"></div>
   <div class="col-8-auto" style="font-size:125%">
@@ -42,7 +42,7 @@ permalink: /publications/
     {% if publication.pmid %}
     <!--PMID - optional-->
     <li> 
-    PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a>  
+    PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a> 
     
     <!--PMCID - optional-->
     {% if publication.pmcid %}
