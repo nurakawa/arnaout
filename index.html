@@ -2,9 +2,11 @@
 layout: splash
 author_profile: false
 title: ""
+#header:
+#  image: /assets/image/color_doppler_cropped.jpg
 ---
 <style>
-@media (min-width: 769px) {
+/*@media (min-width: 769px) {
     .jumbotron{
     margin-left:28%;
     }
@@ -18,32 +20,38 @@ title: ""
         margin-left: 0%;
         float: left;
     }
+}*/
+#news a {
+  color:black;
+}
+
+img{
+  width: 100%;
+  z-index:0;
 }
 </style>
 
 
-<div class="w3-sidebar w3-bar-block" style="width:25%; float:left; font-size:90%;">
-<h1> Recent News </h1>
-<ul style="font-size:80%; list-style: none; padding-left:0;">
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
-   </ul>
-</div>
-
 <div class="jumbotron">
-  <h1>Welcome to the Arnaout Lab!</h1>
-  <img src="https://nurakawa.github.io/arnaout/color_doppler5.png" alt="" style="padding-bottom:20px;">
+  <center><h1 style="font-size:180%">Welcome to the Arnaout Lab!</h1></center>
+  <img src="/assets/image/color_doppler_cropped.jpg" alt="" style="padding-bottom:20px;">
   <br>
-
-
-  <center>
-	  We are part of the <a href="https://cardiology.ucsf.edu/">Division of Cardiology</a> 
-	  in the <a href="https://medicine.ucsf.edu/">Department of Medicine</a> at UCSF. 
-	  We work closely with the UCSF <a href="http://ichs.ucsf.edu/">Institute for Computational Health Sciences</a></center><br> 
 </div>
 
+<br>
+<br>
+<div id="news" style="float:left;">
+<h1> Recent News </h1>
+<hr>
+
+<ul style="font-size:110%; list-style: none; padding-left:0; ">   
+
+{% for p in site.posts %}
+    <li>
+     <strong><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></strong>
+     {{ p.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+</div>
 
