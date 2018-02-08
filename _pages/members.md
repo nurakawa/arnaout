@@ -14,7 +14,7 @@ permalink: /members.html
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
     <div class="col-sm-4">
         <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:280px;height:280px">
 	<br> <br>
@@ -54,7 +54,7 @@ permalink: /members.html
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
     <div class="col-sm-4">
         {%if person.image %}
         <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:280px;height:280px">
@@ -97,7 +97,7 @@ permalink: /members.html
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
     <div class="col-sm-4">
         {% if person.image %}
         <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:280px;height:280px">
@@ -140,7 +140,7 @@ permalink: /members.html
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; font-size:75%;">
+<div id = "{{person.name}}" class="row" style="padding-top: 0px; margin-top: -60px; font-size:85%;">
     <div class="col-sm-4">
         {% if person.image %}
         <img class="img-responsive" src="static/img/members/{{person.image}}" style="align:left;border-radius:50%;width:280px;height:280px">
