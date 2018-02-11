@@ -1,7 +1,8 @@
 /* ==========================================================================
    MASTHEAD
    ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); // add open sans font
+@import url('https://fonts.googleapis.com/css?family=PT+Sans'); // add pt sans
 .masthead {
   position: relative;
   /*-webkit-animation: $intro-transition;
@@ -22,8 +23,11 @@
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
+    // font-family: $sans-serif-narrow;
+    //font-family: Open Sans;
+    font-family: 'PT Sans', sans-serif;
     font-size:$type-size-5;
+    text-transform: uppercase; // make uppercase
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -31,6 +35,7 @@
 
     nav {
       z-index: 10;
+
     }
 
     a {
@@ -48,6 +53,7 @@
   font-weight: bold;
   z-index: 20;
   font-size: $type-size-2;
+  text-transform: uppercase; // make uppercase
 }
 
 .masthead__menu {
@@ -87,14 +93,16 @@
 // custom for "Join Us" button
 .button {
   display: inline-block;
-  border-radius: 2px;
+  border-radius: 1px;
   background-color: red;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 16px;
+  font-family: 'Pt Sans', sans-serif;
+  text-transform: uppercase;
   padding: 8px;
-  width: 100px;
+  width: 110px; // change width of button
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;

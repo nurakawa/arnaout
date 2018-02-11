@@ -22,17 +22,23 @@ title: ""
     }
 }*/
 
+h1{
+  font-family: 'PT Sans', sans-serif;
+}
+
 img{
   width: 100%;
-  z-index:0;
+}
+
+#news a{
+  color: black;
 }
 </style>
 
 
 <div class="jumbotron">
-  <center><h1 style="font-size:180%">Welcome to the Arnaout Lab!</h1></center>
-  <img src="{{ site.baseurl }}/assets/image/color_doppler_cropped.jpg" alt="" style="padding-bottom:20px;">
-  <br>
+  <center><img src="{{ site.baseurl }}/assets/image/mmode_white.png" alt="" style="padding-bottom:50px; height:300px;"></center>
+  <center><h1 style="font-size:210%">Welcome to the Arnaout Lab!</h1></center>
 </div>
 
 <br>
@@ -41,7 +47,7 @@ img{
 <h1> Recent News </h1>
 <hr>
 
-<ul style="font-size:110%; list-style: none; padding-left:0; ">   
+<ul style="font-size:90%; list-style: none; padding-left:0; color:black;">   
 
 {% for p in site.posts %}
     <li>
