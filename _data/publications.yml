@@ -51,7 +51,7 @@
   authors: 'Reischauer S, **Arnaout R**, Ramadass R, Stainier DY.'
   journal: 'Circ Res.'
   year: '2014'
-  image: ../static/img/pub/reischauer_circres_2014.png
+  image: ../static/img/pub/compressed_reischauer_circres_2014.jpg
   pmid: '25228389'
   pmcid: 'PMC4371144'
 
@@ -90,6 +90,6 @@
   authors: '**Arnaout R**, Ferrer T, Huisken J, Spitzer K, Stainier DY, Tristani-Firouzi M, Chi NC.'
   journal: 'Proc Natl Acad Sci USA'
   year: '2007'
-  image: ../static/img/pub/arnaout_pnas_2007.png
+  image: ../static/img/pub/compressed_arnaout_pnas_2007.jpg
   pmid: '17592134'
   pmcid: 'PMC2040896'
