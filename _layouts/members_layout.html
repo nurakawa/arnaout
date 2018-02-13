@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<!--Source for flexible two-column layout:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
+<!--Source for equal-height columns CSS (not used here):http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css-->
+<style>
+
+.column img {
+   align:left;
+   border-radius:50%;
+   width:280px;
+   height:280px;
+   margin-bottom: 25px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+.column {
+    float: left;
+    overflow: hidden;
+}
+
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 1000px) {
+    .column {
+        width: 100%;
+    }
+} 
+</style>
+
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>
+
+

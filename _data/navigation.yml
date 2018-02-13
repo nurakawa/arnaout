@@ -4,8 +4,12 @@ main:
     url: /research/
   - title: "publications"
     url: /publications/
+  - title: "pubs-2"
+    url: /pubs-2/
   - title: "members"
     url: /members.html
+  - title: "members-2"
+    url: /members-2.html
   - title: "news"
     url: /news/
   - title: "contact"

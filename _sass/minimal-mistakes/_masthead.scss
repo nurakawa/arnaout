@@ -47,12 +47,12 @@
 .site-title {
   display: -webkit-box;
   display: flex;
-  padding: 0.5rem 0;
+  //padding: 0.5rem 0;
   align-self: stretch;
   align-items: bottom;
   font-weight: bold;
   z-index: 20;
-  font-size: $type-size-2;
+  font-size: $type-size-4;
   text-transform: uppercase; // make uppercase
 }
 
