@@ -12,7 +12,7 @@ permalink: /pubs-2/
 <style>
 li{
     padding:0;
-    margin-top: -15px;
+    /*margin-top: -2px;*/
 }
 .row{
     overflow: hidden; 
@@ -26,23 +26,27 @@ li{
 
 
 <div class="container-fluid">
-{% for publication in site.data.publications%}
+
+<!--Sorting by date-->
+{% assign sorted = (site.data.publications | sort: 'date') | reverse %}
+
+{% for publication in sorted %}
 
 <div class="row justify-content-between" style="padding-top: 60px; margin-top: -60px;">
   <div class="clearfix hidden-sm-up"></div>
   <div class="col-4">
   
   <!--<img class = "img-responsive" src = "{{publication.image}}" style="max-width: 380px" hspace="20" align="left">-->
-  <img class = "img-responsive" src = "{{publication.image}}" style="width: 380px" hspace="20" align="left">
+  <img class = "img-responsive" src = "{{publication.image}}" style="width: 420px" hspace="20" align="left">
   </div>
   <div class="clearfix hidden-sm-up"></div>
   <div class="col-8-auto" style="font-size:105%">
   {{ publication.title | markdownify }}
-  <!--</div>
-  <div class="col-8-auto" style="font-size:75%;">-->
+ 
   
-  <ul style="font-size:75%; list-style-type:none;">
+  <ul style="font-size:70%; list-style-type:none;">
     <li>{{ publication.authors | markdownify }}</li>
+    <li>{{ publication.journal}} {{publication.year}}</li>
     {% if publication.pmid %}
     <!--PMID - optional-->
     <li> 
