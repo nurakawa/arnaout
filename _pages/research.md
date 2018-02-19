@@ -2,7 +2,16 @@
 title: research
 layout: splash
 permalink: /research/
+#header:
+#  image: "/assets/image/heart_graphic_white.png"
 ---
+
+<!--Header Image: smaller than the layout "header"-->
+<div class="jumbotron">
+  <center><img src="{{ site.baseurl }}/assets/image/heart_graphic_white.png" alt=""></center>
+  <br>
+</div>
+
 <h1> Research </h1>
 <hr>
 

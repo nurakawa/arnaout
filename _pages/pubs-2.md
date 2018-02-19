@@ -37,16 +37,16 @@ li{
   <div class="col-4">
   
   <!--<img class = "img-responsive" src = "{{publication.image}}" style="max-width: 380px" hspace="20" align="left">-->
-  <img class = "img-responsive" src = "{{publication.image}}" style="width: 420px" hspace="20" align="left">
+  <img class = "img-responsive" src = "{{publication.image}}" style="width: 500px" hspace="20" align="left">
   </div>
   <div class="clearfix hidden-sm-up"></div>
   <div class="col-8-auto" style="font-size:105%">
   {{ publication.title | markdownify }}
- 
-  
+
+
   <ul style="font-size:70%; list-style-type:none;">
     <li>{{ publication.authors | markdownify }}</li>
-    <li>{{ publication.journal}} {{publication.year}}</li>
+    <li>{{ publication.journal}} {{publication.year}}</li> 
     {% if publication.pmid %}
     <!--PMID - optional-->
     <li> 

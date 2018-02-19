@@ -4,6 +4,12 @@ title: "Contact"
 permalink: /contact/
 ---
 
+<!--Header Image-->
+<div class="jumbotron">
+  <center><img src="{{ site.baseurl }}/assets/image/heart_graphic_white.png" alt=""></center>
+  <br>
+</div>
+
 <h1> Contact the Arnaout Lab </h1>
 <hr>
 
