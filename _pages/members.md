@@ -1,7 +1,7 @@
 ---
 title: " "
 layout: splash
-permalink: /members.html
+permalink: /members-old.html
 #sidebar:
 #  nav: "members"
 

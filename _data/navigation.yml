@@ -2,14 +2,10 @@
 main:
   - title: "research"
     url: /research/
-  #- title: "publications"
-  #  url: /publications/
   - title: "publications"
-    url: /pubs-2/
-  #- title: "members"
-  #  url: /members.html
+    url: /publications/
   - title: "members"
-    url: /members-2.html
+    url: /members.html
   - title: "news"
     url: /news/
   - title: "contact"

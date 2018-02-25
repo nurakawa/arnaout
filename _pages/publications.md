@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Publications
-permalink: /publications/
+permalink: /publications-old/
 ---
 
 <h1>Publications</h1>

@@ -1,7 +1,7 @@
 ---
 title: " "
 layout: members_layout
-permalink: /members-2.html
+permalink: /members.html
 #sidebar:
 #  nav: "members"
 ---
